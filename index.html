@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutoring Webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;800&display=swap">
+</head>
+<body>
+    <div id="grid-container">
+        <header>
+            <h1 id="logo"> Tutor Business </h1>
+            <nav>
+                <ul id="nav-ul">
+                    <li><a href="" class="navbutton">Home</a></li>
+                    <li><a href="" class="navbutton">Our Story</a></li>
+                    <li><a href="" class="navbutton">Contact</a></li>
+                    <li><a href="" class="navbutton">Details</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="introtext">
+            <p id="caps-text">Tailored Maths and Science Tutoring for Secondary School Pupils</p>
+            <p id="intro-para">We provide one-to-one tuition in STEM subjects for students taking their GSCEs and A-Levels. Our tutors are university-educated and have a minimum of 2 years' experience as private tutors. Contact us to book your free trial session today!</p>
+            <blockquote>"My son's grades improved from Bs to  A*s - thank you!"</blockquote>
+            <a href="">  ENQUIRE TODAY  </a>
+        </section>
+
+        <section id="introimage">
+            <div class="grid-item">
+                <img src="https://images.unsplash.com/photo-1514355315815-2b64b0216b14?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?w1000" alt="Image of a student" class="responsive-img">
+            </div>    
+        </section>
+
+        <div class="banner">
+            <span class="sliding-text">Introductory Session Free of Charge</span>
+        </div>
+
+        <section id="signupimage">
+            <div class="grid-item">
+                <img src="https://images.unsplash.com/photo-1621356986575-05811227a42e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Student writing" class="responsive-img">
+            </div>
+            
+        </section>
+        
+        <section class="signup">
+            <h2>Fill In Your Details Below:</h2>
+            <form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="subject">Subject of interest:</label>
+                <select name="subject" id="subject">
+                    <option value="maths">Maths</option>
+                    <option value="chemistry">Chemistry</option>
+                    <option value="physics">Physics</option>
+                    <option value="biology">Biology</option>
+                </select>
+                <br>
+                <label for="info">Is there any additional information you would like us to know?</label>
+                <textarea name="info" id="info" cols="20" rows="5"></textarea>
+                <br>
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Subscribe to our newsletter for updates!</label>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <footer> 
+            <h1 id="footer-logo"> Tutor Business &copy; </h1>
+            <nav id="footer-links">
+                <ul id="nav-ul">
+                    <li><a href="" class="navbutton">Privacy Policy</a></li>
+                    <li><a href="" class="navbutton">Website Accessibility</a></li>
+                    <li><a href="" class="navbutton">Manage Cookies</a></li>
+                    <li><a href="" class="navbutton">Security</a></li>
+                </ul>
+            </nav>
+            &copy; Tutor Business 2024
+
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
