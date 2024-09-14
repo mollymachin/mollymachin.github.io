@@ -63,7 +63,6 @@ header {
     font-size: large;
     font-family: Nunito;
     color: #333;
-    font-weight: 600;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -87,6 +86,7 @@ header {
     display: inline-block;
     font-family: Nunito;
     letter-spacing: 1px;
+    font-weight: 500;
 }
 
 #introimage {
@@ -166,8 +166,13 @@ form {
     flex-direction: column;
 }
 
+#subscribe {
+    align-items: center;
+    justify-content: center;
+}
+
 label {
-    font-weight: bold;
+    font-weight: 400;
     margin-bottom: 5px;
     color: #555;
 }
@@ -189,8 +194,14 @@ textarea {
 }
 
 input[type="checkbox"] {
-    margin-right: 10px;
+    justify-content: center;
 }
+
+.checkbox-wrapper {
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+  }
 
 input[type="submit"],
 button[type="submit"] {
@@ -206,7 +217,8 @@ button[type="submit"] {
 
 label[for="subscribe"] {
     display: block;
-    text-align: center; 
+    text-align: center;
+    align-items: center; 
 }
 
 input[type="submit"]:hover,
